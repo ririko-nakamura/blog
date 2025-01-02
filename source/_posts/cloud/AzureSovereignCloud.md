@@ -10,7 +10,7 @@ This post is to:
 
 * Solve credential type mismatch which causes errors like "object has no attribute 'get_token'"
 
-* Share experience to create cloud management clients with Azure Python SDK"
+* Share experience to create cloud management clients with Azure Python SDK
 
 ## Authorize with ServicePrincipal (Legacy, Deprecated)
 
