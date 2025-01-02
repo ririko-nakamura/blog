@@ -43,7 +43,7 @@ Clients under this authorization path (not all listed, subject to change):
 
 * azure.mgmt.netapp.AzureNetAppFilesManagementClient
   
-  > Please note **AzureNetAppFilesManagementClient** and **NetAppManagementClient** may follow different authorization pattern.
+  Please note **AzureNetAppFilesManagementClient** and **NetAppManagementClient** may follow different authorization pattern.
 
 Parameters relevant to sovereign cloud:
 
