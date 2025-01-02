@@ -6,7 +6,7 @@ tags:
 - Sovereign Cloud
 ---
 
-This post is to:
+**This post is to:**
 
 * Solve credential type mismatch which causes errors like "object has no attribute 'get_token'"
 
@@ -14,9 +14,9 @@ This post is to:
 
 ## Authorize with ServicePrincipal (Legacy, Deprecated)
 
-Authorize with a ServicePrincipalCredential, which contains cloud_enviroment information. 
+Authorize with a **ServicePrincipalCredentials**, which contains **cloud_enviroment** information. 
 
-* Create an instance of ServicePrincipalCredentials, with cloud_enviroment from msrestazure.azure_cloud provided
+* Create an instance of **ServicePrincipalCredentials**, with **cloud_enviroment** from **msrestazure.azure_cloud** provided
   ```python
   from azure.common.credentials import ServicePrincipalCredentials
   import msrestazure
@@ -43,7 +43,7 @@ Clients under this authorization path (not all listed, subject to change):
 
 * azure.mgmt.netapp.AzureNetAppFilesManagementClient
   
-  Please note **AzureNetAppFilesManagementClient** and **NetAppManagementClient** may follow different authorization pattern.
+  :warning: Please note **AzureNetAppFilesManagementClient** and **NetAppManagementClient** may follow different authorization pattern.
 
 Parameters relevant to sovereign cloud:
 
@@ -53,8 +53,8 @@ Parameters relevant to sovereign cloud:
 
 ## Authorize with TokenCredential
 
-Authorize with a TokenCredential, which implemented get_token() method, typically
-ClientSecretCredential. 
+Authorize with a **TokenCredential**, which implemented **get_token()** method, typically a
+**ClientSecretCredential**. 
 
 Clients under this authorization path (not all listed):
 
