@@ -1,6 +1,9 @@
 ---
 title: Authorization in Azure Sovereign Cloud
-tags: Azure, Sovereign Cloud
+date: 2025-01-02 14:30:00
+tags:
+- Azure
+- Sovereign Cloud
 ---
 
 This post is to:
@@ -39,6 +42,7 @@ Authorize with a ServicePrincipalCredential, which contains cloud_enviroment inf
 Clients under this authorization path (not all listed, subject to change):
 
 * azure.mgmt.netapp.AzureNetAppFilesManagementClient
+  
   > Please note **AzureNetAppFilesManagementClient** and **NetAppManagementClient** may follow different authorization pattern.
 
 Parameters relevant to sovereign cloud:
